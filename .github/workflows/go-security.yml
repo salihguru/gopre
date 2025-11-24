@@ -23,7 +23,7 @@ jobs:
       GOPATH: ${{ github.workspace }}
     steps:
       - name: Check out the repo
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
       - name: Install Go
         uses: actions/setup-go@v6
         with:
